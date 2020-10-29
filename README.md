@@ -12,6 +12,16 @@ To create a Next.js app with this template, open your terminal, `cd` into the di
 npx create-next-app nextjs-blog --use-npm --example "https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
 ```
 
+## Run development server
+
+```
+cd nextjs-blog
+```
+
+```
+npm run dev
+```
+
 ## Maintainer
 
 Twitter - https://twitter.com/earvinpiamonte
