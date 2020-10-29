@@ -6,7 +6,10 @@ Before using this template, please make sure that your development environment i
 
 ## Create a Next.js App
 
-To create a Next.js app with this template, open your terminal, `cd` into the directory you'd like to create the app in, and run the following command:
+To create a Next.js app with this template, open your terminal, `cd` into the directory you'd like to create the app in, and run the command below:
+
+Note:
+Replace `nextjs-blog` with your project name. eg. `my-nextjs-app`.
 
 ```
 npx create-next-app nextjs-blog --use-npm --example "https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
