@@ -1,18 +1,17 @@
 import Head from "next/head";
-import Layout, { defaults } from "../components/layout";
+import Layout, { siteMetaData } from "../components/layout";
 
 export default function Home() {
   return (
     <Layout home>
       <Head>
-        <meta name="og:title" content={`${defaults.title} | Home`} />
-        <title>{`${defaults.title} | Home`}</title>
+        <title>{`${siteMetaData.title} | Home`}</title>
       </Head>
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h1 className="app-h1">
             <svg
-              class="w-8 h-8 inline-block mr-2"
+              className="w-8 h-8 inline-block mr-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
