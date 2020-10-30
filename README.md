@@ -25,6 +25,12 @@ cd nextjs-blog
 npm run dev
 ```
 
+## Deploy with Vercel to preview
+
+Deploy this template using Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/earvinpiamonte/nextjs-tailwindcss-template)
+
 ## Maintainer
 
 Twitter - https://twitter.com/earvinpiamonte
@@ -32,3 +38,7 @@ Twitter - https://twitter.com/earvinpiamonte
 LinkedIn - https://www.linkedin.com/in/earvinpiamonte
 
 Website - https://www.earvinpiamonte.com
+
+## Credits
+
+[Button image](https://vercel.com/button) owned by [Vercel](https://vercel.com).
