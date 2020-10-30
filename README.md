@@ -1,6 +1,6 @@
 # Next.js + Tailwind CSS template
 
-This is a Next.js starter template with Tailwind CSS.
+This template aims to simplify the setup of Tailwind CSS on your Next.js app.
 
 Before using this template, please make sure that your development environment is ready as stated on [Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup) website.
 
@@ -9,7 +9,7 @@ Before using this template, please make sure that your development environment i
 To create a Next.js app with this template, open your terminal, `cd` into the directory you'd like to create the app in, and run the command below:
 
 Note:
-Replace `nextjs-blog` with your project name. eg. `my-nextjs-app`.
+Replace `nextjs-blog` with your project name you'd like to create, eg. `my-nextjs-app`.
 
 ```
 npx create-next-app nextjs-blog --use-npm --example "https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
