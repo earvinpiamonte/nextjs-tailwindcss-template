@@ -25,7 +25,7 @@ cd nextjs-blog
 npm run dev
 ```
 
-## Deploy with Vercel to preview
+## Deploy with Vercel for preview
 
 Deploy this template using Vercel:
 
