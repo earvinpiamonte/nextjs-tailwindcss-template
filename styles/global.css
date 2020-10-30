@@ -7,8 +7,33 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
+.app-p {
+  @apply mb-3;
+}
+
 .app-h1 {
   @apply text-4xl;
+  @apply mb-3;
+}
+
+.app-h2 {
+  @apply text-xl;
+  @apply mb-3;
+}
+
+.app-code {
+  @apply px-1;
+  @apply bg-red-100;
+  @apply rounded;
+}
+
+.app-link {
+  @apply text-blue-700;
+  @apply font-medium;
+}
+
+.app-link:hover {
+  @apply underline;
 }
 
 /* Start purging... */
