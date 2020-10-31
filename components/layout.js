@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export const siteMetaData = {
   siteName: "Next.js + Tailwind CSS template",
-  siteURL: "https://earvinpiamonte.com",
+  siteURL: "",
   title: "Next.js + Tailwind CSS template",
   description: "Next.js + Tailwind CSS template",
   twitterHandle: "earvinpiamonte",
