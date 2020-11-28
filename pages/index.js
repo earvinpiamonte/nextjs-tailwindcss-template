@@ -3,7 +3,7 @@ import Layout, { siteMetaData } from "../components/layout";
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{`${siteMetaData.title} | Home`}</title>
       </Head>

@@ -9,7 +9,7 @@ export const siteMetaData = {
   socialPreview: "/images/preview.png",
 };
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
