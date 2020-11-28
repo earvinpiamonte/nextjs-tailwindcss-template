@@ -23,7 +23,7 @@
 
 .app-code {
   @apply px-1;
-  @apply bg-red-100;
+  @apply bg-green-100;
   @apply rounded;
 }
 
