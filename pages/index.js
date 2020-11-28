@@ -48,6 +48,7 @@ export default function Home() {
             <li>
               <code className="app-code">{"<Layout />"}</code> component
             </li>
+            <li>Purging styles using PurgeCSS.</li>
           </ul>
 
           <h2 className="app-h2">Guides</h2>
