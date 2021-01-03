@@ -1,11 +1,14 @@
+import getConfig from "next/config";
 import Head from "next/head";
-import Layout, { siteMetaData } from "../components/layout";
+import Layout from "../components/layout";
 
-export default function Home() {
+const { publicRuntimeConfig } = getConfig();
+
+const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>{`${siteMetaData.title} | Home`}</title>
+        <title key="title">{`${publicRuntimeConfig.siteMetaData.title} | Home`}</title>
       </Head>
       <section className="py-12">
         <div className="container mx-auto px-4">
@@ -101,4 +104,6 @@ export default function Home() {
       </section>
     </Layout>
   );
-}
+};
+
+export default Home;
