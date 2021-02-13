@@ -8,15 +8,20 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
   const { asPath } = router;
 
+  const {
+    url,
+    twitterHandle,
+    name,
+    description,
+    socialPreview,
+    title,
+  } = publicRuntimeConfig.siteMetaData;
+
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" key="favicon" />
-        <link
-          rel="canonical"
-          href={`${publicRuntimeConfig.siteMetaData.url}${asPath}`}
-          key="canonical"
-        />
+        <link rel="canonical" href={`${url}${asPath}`} key="canonical" />
 
         {/* Twitter */}
         <meta
@@ -26,49 +31,33 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         />
         <meta
           name="twitter:creator"
-          content={publicRuntimeConfig.siteMetaData.twitterHandle}
+          content={twitterHandle}
           key="twitter_creator"
         />
-        <meta
-          name="twitter:title"
-          content={publicRuntimeConfig.siteMetaData.name}
-          key="twitter_title"
-        />
+        <meta name="twitter:title" content={name} key="twitter_title" />
         <meta
           name="twitter:description"
-          content={publicRuntimeConfig.siteMetaData.description}
+          content={description}
           key="twitter_description"
         />
         <meta
           name="twitter:image"
-          content={`${publicRuntimeConfig.siteMetaData.url}/${publicRuntimeConfig.siteMetaData.socialPreview}`}
+          content={`${url}/${socialPreview}`}
           key="twitter_image"
         />
 
         {/* Open Graph */}
-        <meta
-          property="og:url"
-          content={`${publicRuntimeConfig.siteMetaData.url}${asPath}`}
-          key="og_url"
-        />
-        <meta
-          property="og:site_name"
-          content={publicRuntimeConfig.siteMetaData.name}
-          key="og_site_name"
-        />
-        <meta
-          property="og:title"
-          content={publicRuntimeConfig.siteMetaData.title}
-          key="og_title"
-        />
+        <meta property="og:url" content={`${url}${asPath}`} key="og_url" />
+        <meta property="og:site_name" content={name} key="og_site_name" />
+        <meta property="og:title" content={title} key="og_title" />
         <meta
           property="og:description"
-          content={publicRuntimeConfig.siteMetaData.description}
+          content={description}
           key="og_description"
         />
         <meta
           property="og:image"
-          content={`${publicRuntimeConfig.siteMetaData.url}/${publicRuntimeConfig.siteMetaData.socialPreview}`}
+          content={`${url}/${socialPreview}`}
           key="og_image"
         />
         <meta property="og:image:width" content={`1200`} key="og_image_width" />
@@ -78,12 +67,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           key="og_image_height"
         />
 
-        <meta
-          name="description"
-          content={publicRuntimeConfig.siteMetaData.description}
-          key="description"
-        />
-        <title key="title">{publicRuntimeConfig.siteMetaData.title}</title>
+        <meta name="description" content={description} key="description" />
+        <title key="title">{title}</title>
       </Head>
       <main>{children}</main>
     </>
