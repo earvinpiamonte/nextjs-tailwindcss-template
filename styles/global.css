@@ -7,23 +7,29 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.app-p {
+p {
   @apply mb-3;
 }
 
-.app-h1 {
+h1 {
   @apply text-4xl;
   @apply mb-3;
 }
 
-.app-h2 {
+h2 {
   @apply text-xl;
   @apply mb-3;
 }
 
-.app-code {
+ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply mb-3;
+}
+
+code {
   @apply px-1;
-  @apply bg-green-100;
+  @apply bg-gray-100;
   @apply rounded;
 }
 
