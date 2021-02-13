@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 const { publicRuntimeConfig } = getConfig();
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
   const { asPath } = router;
 
