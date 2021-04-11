@@ -33,8 +33,6 @@ Deploy this template using Vercel:
 
 ## Maintainer
 
-Twitter - https://twitter.com/earvinpiamonte
-
 LinkedIn - https://www.linkedin.com/in/earvinpiamonte
 
 Website - https://www.earvinpiamonte.com
