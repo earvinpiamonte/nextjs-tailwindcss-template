@@ -1,5 +1,4 @@
 import getConfig from "next/config";
-import Head from "next/head";
 import Layout from "../components/layout";
 
 const { publicRuntimeConfig } = getConfig();
