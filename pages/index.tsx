@@ -1,5 +1,6 @@
 import getConfig from "next/config";
-import Layout from "../components/layout";
+
+import Layout from "@/components/Layout";
 
 const { publicRuntimeConfig } = getConfig();
 const { title } = publicRuntimeConfig.siteMetaData;
