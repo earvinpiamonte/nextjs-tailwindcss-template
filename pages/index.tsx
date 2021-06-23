@@ -15,16 +15,13 @@ const Home = () => {
           <h2>Additions:</h2>
           <ul>
             <li>
-              Pre-configured <code>postcss.config.js</code>
-              .
+              Pre-configured <code>postcss.config.js</code>.
             </li>
             <li>
-              Pre-configured{" "}
-              <code>tailwind.config.js</code>.
+              Pre-configured <code>tailwind.config.js</code>.
             </li>
             <li>
-              <code>global.css</code> that contains
-              Tailwind CSS directives.
+              <code>global.css</code> that contains Tailwind CSS directives.
             </li>
             <li>
               <code>{"<Layout />"}</code> component.
