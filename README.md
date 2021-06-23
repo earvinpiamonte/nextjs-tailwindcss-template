@@ -1,6 +1,6 @@
 # Next.js + Tailwind CSS template
 
-This template aims to simplify the setup of Tailwind CSS on your Next.js app.
+This project template aims to simplify the setup of Tailwind CSS on your Next.js app.
 
 Before using this template, please make sure that your development environment is ready as stated on [Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup) website.
 
@@ -25,7 +25,7 @@ cd nextjs-blog
 npm run dev
 ```
 
-## Deploy with Vercel for preview
+## Deploy with Vercel
 
 Deploy this template using Vercel:
 
@@ -33,10 +33,8 @@ Deploy this template using Vercel:
 
 ## Maintainer
 
-LinkedIn - https://www.linkedin.com/in/earvinpiamonte
-
-Website - https://www.earvinpiamonte.com
+This project is maintained by [Noel Earvin Piamonte](https://www.earvinpiamonte.com).
 
 ## Credits
 
-[Button image](https://vercel.com/button) owned by [Vercel](https://vercel.com).
+[Deploy button image](https://vercel.com/button) used on this `README.md` is owned by [Vercel](https://vercel.com).
