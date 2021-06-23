@@ -8,14 +8,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
   const { asPath } = router;
 
-  const {
-    url,
-    twitterHandle,
-    name,
-    description,
-    socialPreview,
-    title,
-  } = publicRuntimeConfig.siteMetaData;
+  const { url, twitterHandle, name, description, socialPreview, title } =
+    publicRuntimeConfig.siteMetaData;
 
   return (
     <>
