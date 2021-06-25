@@ -3,14 +3,14 @@ import getConfig from "next/config";
 import Layout from "@/components/Layout";
 
 const { publicRuntimeConfig } = getConfig();
-const { title } = publicRuntimeConfig.siteMetaData;
+const { name } = publicRuntimeConfig.site;
 
 const Home = () => {
   return (
     <Layout>
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <h1>{title}</h1>
+          <h1>{name}</h1>
           <p>Welcome to my Next.js + Tailwind CSS starter template.</p>
 
           <h2>Additions:</h2>
