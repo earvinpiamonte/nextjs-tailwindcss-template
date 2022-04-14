@@ -10,7 +10,7 @@ const Home = () => {
     <Layout>
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="prose mx-auto">
+          <div className="prose prose-blue mx-auto">
             <h1>{name}</h1>
             <p>Welcome to my Next.js + Tailwind CSS starter template.</p>
 
