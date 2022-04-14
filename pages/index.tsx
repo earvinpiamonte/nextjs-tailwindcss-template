@@ -10,69 +10,75 @@ const Home = () => {
     <Layout>
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <h1>{name}</h1>
-          <p>Welcome to my Next.js + Tailwind CSS starter template.</p>
+          <div className="prose mx-auto">
+            <h1>{name}</h1>
+            <p>Welcome to my Next.js + Tailwind CSS starter template.</p>
 
-          <h2>Additions:</h2>
-          <ul>
-            <li>
-              Pre-configured <code>postcss.config.js</code> and{' '}
-              <code>tailwind.config.js</code>.
-            </li>
-            <li>
-              <code>global.css</code> that contains Tailwind CSS directives.
-            </li>
-            <li>
-              <code>{'<Layout />'}</code> component.
-            </li>
-          </ul>
+            <h2>Features:</h2>
+            <ul>
+              <li>
+                Pre-configured <code>postcss.config.js</code> and{' '}
+                <code>tailwind.config.js</code>.
+              </li>
+              <li>
+                Markdown and CMS Content friendly with{' '}
+                <code>@tailwindcss/typography</code>.
+              </li>
+              <li>
+                <code>global.css</code> that contains Tailwind CSS directives.
+              </li>
+              <li>
+                <code>{'<Layout />'}</code> component.
+              </li>
+            </ul>
 
-          <h2>Guides</h2>
-          <ul>
-            <li>
+            <h2>Guides</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://nextjs.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="app-link"
+                >
+                  Next.js
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="app-link"
+                >
+                  Tailwind CSS
+                </a>
+              </li>
+            </ul>
+
+            <h2>Maintainer</h2>
+            <p>
+              This project template is maintained by{' '}
               <a
-                href="https://nextjs.org/"
+                href="https://earvinpiamonte.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="app-link"
               >
-                Next.js
-              </a>
-            </li>
-            <li>
+                @earvinpiamonte
+              </a>{' '}
+              and publicly available on{' '}
               <a
-                href="https://tailwindcss.com/"
+                href="https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="app-link"
               >
-                Tailwind CSS
+                GitHub
               </a>
-            </li>
-          </ul>
-
-          <h2>Maintainer</h2>
-          <p>
-            This project template is maintained by{' '}
-            <a
-              href="https://earvinpiamonte.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="app-link"
-            >
-              @earvinpiamonte
-            </a>{' '}
-            and publicly available on{' '}
-            <a
-              href="https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="app-link"
-            >
-              GitHub
-            </a>
-            .
-          </p>
+              .
+            </p>
+          </div>
         </div>
       </section>
     </Layout>

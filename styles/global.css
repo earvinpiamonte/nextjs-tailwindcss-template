@@ -1,49 +1,12 @@
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Write your own custom component styles here */
-p {
-  @apply mb-3;
-}
-
-h1 {
-  @apply text-4xl;
-  @apply mb-3;
-}
-
-h2 {
-  @apply text-xl;
-  @apply mb-3;
-}
-
-ul {
-  @apply list-disc;
-  @apply list-inside;
-  @apply mb-3;
-}
-
-code {
-  @apply px-1;
-  @apply bg-gray-100;
-  @apply rounded;
-}
-
-.app-link {
-  @apply text-blue-700;
-  @apply font-medium;
-}
-
-.app-link:hover {
-  @apply underline;
-}
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
-/* Your own custom utilities */
+/* Write custom base/ component/ utility styles with `@layer` directive */
+
+/* Remoe this example `.selector` */
+/* @layer components {
+  .new-selector {
+    @apply text-blue-500 font-medium;
+  }
+} */
