@@ -25,6 +25,9 @@ const Home = () => {
                 <code>@tailwindcss/typography</code>.
               </li>
               <li>
+                Form styles with <code>@tailwindcss/forms</code>.
+              </li>
+              <li>
                 <code>global.css</code> that contains Tailwind CSS directives.
               </li>
               <li>
@@ -39,7 +42,6 @@ const Home = () => {
                   href="https://nextjs.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="app-link"
                 >
                   Next.js
                 </a>
@@ -49,12 +51,67 @@ const Home = () => {
                   href="https://tailwindcss.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="app-link"
                 >
                   Tailwind CSS
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/tailwindlabs/tailwindcss-typography"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @tailwindcss/typography
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/tailwindlabs/tailwindcss-forms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @tailwindcss/forms
+                </a>
+              </li>
             </ul>
+
+            <h2>Form control examples</h2>
+            <form action="" className="mb-0 space-y-6">
+              <div>
+                <label
+                  htmlFor="sample-email"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Sample email input
+                </label>
+                <input
+                  type="email"
+                  name="sample-email"
+                  id="sample-email"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="sample-checkbox">
+                  <input
+                    type="checkbox"
+                    name="sample-checkbox"
+                    id="sample-checkbox"
+                  />
+                  <span className="ml-2">A sample checkbox</span>
+                </label>
+              </div>
+              <div className="flex items-center space-x-4">
+                <label htmlFor="sample-radio-1">
+                  <input type="radio" name="sample-radio" id="sample-radio-1" />
+                  <span className="ml-2">A sample radio number one</span>
+                </label>
+                <label htmlFor="sample-radio-2">
+                  <input type="radio" name="sample-radio" id="sample-radio-2" />
+                  <span className="ml-2">A sample radio number two</span>
+                </label>
+              </div>
+            </form>
 
             <h2>Maintainer</h2>
             <p>
@@ -63,7 +120,6 @@ const Home = () => {
                 href="https://earvinpiamonte.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="app-link"
               >
                 @earvinpiamonte
               </a>{' '}
@@ -72,7 +128,6 @@ const Home = () => {
                 href="https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="app-link"
               >
                 GitHub
               </a>
