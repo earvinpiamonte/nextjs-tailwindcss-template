@@ -4,9 +4,17 @@
 
 /* Write custom base/ component/ utility styles with `@layer` directive */
 
-/* Remoe this example `.selector` */
-/* @layer components {
-  .new-selector {
-    @apply text-blue-500 font-medium;
+@layer components {
+
+  .prose :where(code):not(:where([class~="not-prose"] *)) {
+    @apply bg-gray-200 dark:bg-gray-800 dark:text-white font-normal px-1 py-0.5 rounded-md text-sm;
   }
-} */
+
+  .prose :where(code):not(:where([class~="not-prose"] *))::before {
+    content: '';
+  }
+
+  .prose :where(code):not(:where([class~="not-prose"] *))::after {
+    content: '';
+  }
+}
